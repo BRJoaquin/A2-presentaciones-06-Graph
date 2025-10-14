@@ -17,6 +17,7 @@ public:
         if (this->parent[x] == x) {
             return x;
         }
+        return find(this->parent[x]);
     }
 
     void merge(int x, int y) {
