@@ -173,7 +173,7 @@ Cómo se disponen los nodos de un grafo
 ## Grafo dirigido
 
 - Fuertemente conexo: Existe un camino entre cualquier par de nodos.
-- Débilmente conexo: Existe un camino entre cualquier par de nodos si se considera el grafo dirigido subyacente.
+- Débilmente conexo: Existe un camino entre cualquier par de nodos si se considera el grafo no dirigido subyacente.
 - No conexo: Existen nodos que no están conectados, independientemente de la dirección de las aristas.
 
 ---
