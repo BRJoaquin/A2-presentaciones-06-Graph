@@ -31,7 +31,7 @@ void floydWarshall(Graph *g) {
             for (int j = 0; j < V; j++) {
                 if (dist[i][k] < INF && dist[k][j] < INF && dist[i][k] + dist[k][j] < dist[i][j]) {
                     dist[i][j] = dist[i][k] + dist[k][j];
-                    parent[i][j] = k;
+                    parent[i][j] = parent[k][j];
                 }
             }
         }
